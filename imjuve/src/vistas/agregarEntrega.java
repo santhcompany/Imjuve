@@ -78,7 +78,7 @@ public class agregarEntrega extends javax.swing.JFrame {
             }
         });
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/inmg/img2.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/add.png"))); // NOI18N
 
         jLabel7.setForeground(new java.awt.Color(49, 102, 126));
         jLabel7.setText("Nombre:");
