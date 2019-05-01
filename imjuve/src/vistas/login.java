@@ -17,7 +17,7 @@ public class login extends javax.swing.JFrame {
 	public login() {
 		initComponents();
 
-		ImageIcon imagen = new ImageIcon(getClass().getResource("/imgs/imjuve.jpg"));
+		ImageIcon imagen = new ImageIcon(getClass().getResource("/imgs/home.png"));
 		Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(lblEmpresa.getWidth(), lblEmpresa.getHeight(), Image.SCALE_DEFAULT));
 		lblEmpresa.setIcon(icono);
 		this.repaint();
@@ -53,6 +53,7 @@ public class login extends javax.swing.JFrame {
         jButton1.setText("Aceptar");
 
         lblEmpresa.setForeground(new java.awt.Color(51, 51, 51));
+        lblEmpresa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/home.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -73,7 +74,7 @@ public class login extends javax.swing.JFrame {
                                 .addComponent(jButton1)
                                 .addGap(53, 53, 53))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(78, 78, 78)
+                        .addGap(79, 79, 79)
                         .addComponent(lblEmpresa, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(61, Short.MAX_VALUE))
         );

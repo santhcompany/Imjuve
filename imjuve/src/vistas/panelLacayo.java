@@ -52,7 +52,7 @@ public class panelLacayo extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 153));
 
-        lblUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/user.png"))); // NOI18N
+        lblUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/userOne.png"))); // NOI18N
 
         jLabel2.setForeground(new java.awt.Color(51, 51, 51));
         jLabel2.setText("Nombre:");
@@ -93,15 +93,15 @@ public class panelLacayo extends javax.swing.JFrame {
                                     .addGap(133, 133, 133)
                                     .addComponent(lblTelefono, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(52, 52, 52)
-                        .addComponent(lblUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(68, 68, 68)
+                        .addComponent(lblUsuario)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(63, 63, 63)
-                .addComponent(lblUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(lblUsuario)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
@@ -118,7 +118,7 @@ public class panelLacayo extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
                     .addComponent(lblNickname))
-                .addContainerGap(223, Short.MAX_VALUE))
+                .addContainerGap(254, Short.MAX_VALUE))
         );
 
         jsNoticasUser.setBackground(new java.awt.Color(204, 204, 204));
