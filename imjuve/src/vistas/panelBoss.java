@@ -73,7 +73,8 @@ public class panelBoss extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         cbHistorial = new javax.swing.JComboBox<>();
         jButton1 = new javax.swing.JButton();
-        jsNoticias = new javax.swing.JScrollPane();
+        jtDatos = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
         jsActAsig = new javax.swing.JScrollPane();
         jsActDepa = new javax.swing.JScrollPane();
         jLabel1 = new javax.swing.JLabel();
@@ -155,7 +156,7 @@ public class panelBoss extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(77, 77, 77)
                         .addComponent(jLabel5)
-                        .addContainerGap(149, Short.MAX_VALUE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel4)
@@ -272,6 +273,19 @@ public class panelBoss extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jtDatos.setViewportView(jTable2);
+
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Actividades asignadas:");
@@ -290,7 +304,7 @@ public class panelBoss extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jsNoticias))
+                    .addComponent(jtDatos))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -320,7 +334,7 @@ public class panelBoss extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jsNoticias))
+                        .addComponent(jtDatos, javax.swing.GroupLayout.DEFAULT_SIZE, 419, Short.MAX_VALUE))
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -417,9 +431,10 @@ public class panelBoss extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JTable jTable2;
     private javax.swing.JScrollPane jsActAsig;
     private javax.swing.JScrollPane jsActDepa;
-    private javax.swing.JScrollPane jsNoticias;
+    private javax.swing.JScrollPane jtDatos;
     private javax.swing.JLabel lblCorreo;
     private javax.swing.JLabel lblNickname;
     private javax.swing.JLabel lblNombreBoss;
